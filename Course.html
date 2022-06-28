@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect"  href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<!-----Link social media--------->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@2f749eb/css/socializer.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<!---------API--------->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpeg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!------------- Course ----------------->
+    <section class="course">
+        <h1>COURSE WHICH ABHISHEK OFFER</h1>
+        <p>If you want to learn coding from base then you choose the right website</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>C-PROGRAM</h3>
+                <p>Procedural computer<br>programming language </p>
+            </div>
+            <div class="course-col">
+                <h3>SQL</h3>
+                <p>one of bigest growth language in world</p>
+            </div>
+            <div class="course-col">
+                <h3>Design Algo</h3>
+                <p>Procedural computer programming language </p>
+            </div>
+            </div>
+        </div>
+    </section>
+   <!-----Facilities------->
+   <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Abhishek always help you in assignments</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="lib.jpeg">
+            <h3>World class library</h3>
+            <p>Best library in the world</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="ff.jpeg">
+            <h3>World class kitchen</h3>
+            <p>Tasty & healthy food</p>
+
+        </div>
+        <div class="facilities-col">
+            <img src="bb.jpeg">
+            <h3>largest play ground</h3>
+            <p>you play basket ball here</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-----------------Footer--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident delectus qui illo recusandae suscipit ab! <br>Laudantium consequuntur praesentium aliquid facilis? Quos iste temporibus, adipisci obcaecati laudantium atque error ullam tempora!</p>
+<div class="icons">
+    <div class="socializer" data-features="32px,squircle,opacity,icon-white,pad" data-sites="twitter,reddit,print,email,rss,whatsapp,facebook" data-meta-link="" data-meta-title=""></div>
+</div>
+<p>Thank you for visiting our website</p>
+</section>
+<!------Toggle java script---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/vaakash/socializer@2f749eb/js/socializer.min.js"></script>
+<script>
+(function(){
+    socializer( '.socializer' );
+}());
+</script>
+</html>
